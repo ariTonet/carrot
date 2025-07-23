@@ -1,0 +1,110 @@
+.bodyIndex {
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 20% 68% 12%;
+	/*background-image: url(""); если картинка на фоне*/
+	background-color: rgb(38, 153, 63);
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+.objectPanel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.objectPanel img {
+	width: 50%;
+}
+.menuPanel {
+	display: flex;
+}
+.menuButton img {
+	width: auto;
+	height: 60%;
+}
+.menuPanel {
+	display: flex;
+	justify-content: center;
+}
+.menuButton img {
+	width: auto;
+	height: 60%;
+}
+.menuButton {
+	margin-left: 10px;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.menuText {
+	text-decoration: none;
+	color: #4b0c0c;
+	font-family: Myfont;
+}
+@font-face {
+	font-family: Myfont;
+	src: url(ofont.ru_Unsightly.ttf);
+}
+.topScorePanel {
+	height: 60%;
+}
+.energy {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.energy img {
+	width: 50px;
+	position: relative;
+	left: 24px;
+	z-index: 5;
+}
+#energyBox {
+	width: 100px;
+	height: 20px;
+	border-radius: 4px;
+	background-color: gray;
+	color: azure;
+	font-weight: 600;
+	font-style: italic;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+#energyFill {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	border-radius: 4px;
+	background: linear-gradient(90deg, #0d0080 0%, #5346cc 100%);
+}
+#energyText {
+	z-index: 5;
+}
+.centerScorePanel {
+	height: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.centerScorePanel img {
+	width: 70px;
+}
+#score {
+	height: 25%;
+}
+.bottomScorePanel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	margin-top: 20px;
+	color: black;
+	font-weight: 600;
+}
