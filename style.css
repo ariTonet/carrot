@@ -4,7 +4,7 @@
 	display: grid;
 	grid-template-rows: 20% 68% 12%;
 	/*background-image: url(""); если картинка на фоне*/
-	background-color: rgb(38, 153, 63);
+	background-color: #26993f;
 }
 * {
 	padding: 0;
@@ -32,6 +32,7 @@
 .menuButton img {
 	width: auto;
 	height: 60%;
+	width: 45px;
 }
 .menuButton {
 	margin-left: 10px;
