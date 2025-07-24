@@ -2,7 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, user-scalable=no"
+		/>
 		<title>Document</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
@@ -10,7 +13,7 @@
 		<div class="scSorePanel">
 			<div class="topScorePanel">
 				<div class="energy">
-					<img src="energy.com.png" />
+					<img src="энергия.png" />
 					<div id="energyBox">
 						<div id="energyFill"></div>
 						<span id="energyText">500</span>
@@ -25,8 +28,8 @@
 				<p>+ <span id="scoreInHour">0</span>в час</p>
 			</div>
 		</div>
-		<div class="objectPanel">
-			<img src="белка.png" />
+		<div class="objectPanel" id="objectPanel">
+			<img src="белка.png" id="objectImg" />
 		</div>
 		<div class="menuPanel">
 			<a href="#" class="menuText"
@@ -37,13 +40,13 @@
 			>
 			<a href="#" class="menuText"
 				><div class="menuButton">
-					<img src="press.png" />
+					<img src="diamond.png" />
 					<p>Награды</p>
 				</div></a
 			>
 			<a href="#" class="menuText"
 				><div class="menuButton">
-					<img src="press.png" />
+					<img src="pngwing.com (4).png" />
 					<p>Рейтинг</p>
 				</div></a
 			>
@@ -54,5 +57,6 @@
 				</div></a
 			>
 		</div>
+		<script src="script.js"></script>
 	</body>
 </html>
