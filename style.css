@@ -142,3 +142,113 @@
 		opacity: 0;
 	}
 }
+.upgradeCards {
+	padding: 20px;
+}
+.upgradeCards p {
+	font-size: 17px;
+	font-weight: 700;
+	font-family: Myfont;
+	margin-bottom: 10px;
+}
+.card {
+	width: 28%;
+	height: 120px;
+	background-color: #471786;
+	border-radius: 10px;
+	font-weight: 400;
+	font-family: MyFont;
+	color: azure;
+	font-size: 13px;
+	font-weight: 600;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.containerUpgraideCards {
+	display: flex;
+	justify-content: space-between;
+}
+.imageCard {
+	width: 90%;
+	height: 90px;
+	border-radius: 10px;
+}
+.imageCard p {
+	background-color: #5346cc;
+}
+.card:nth-child(1) .imageCard {
+	background-image: url(lvlEnergy.png);
+	background-size: cover;
+}
+.card:nth-child(1) .imageCard {
+	background-image: url(lvlContClick.png);
+	background-size: cover;
+}
+.card:nth-child(1) .imageCard {
+	background-image: url(lvlRestart.png);
+	background-size: cover;
+}
+.dialog {
+	position: fixed;
+	inset: auto 0 0 0;
+	border: 2px solid rgba(14, 155, 108, 0.843);
+	width: calc(100% - 4px);
+	height: 70vh;
+	border-radius: 10px;
+	background-color: rgb(153, 205, 188);
+	padding: 20px;
+}
+.imgDialog {
+	width: 60%;
+	height: 30%;
+}
+.textContainer img {
+	width: 20px;
+	margin-left: 20px;
+}
+form {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.closeButtom {
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	border-radius: 50px;
+	background-color: rgba(14, 155, 108, 0.843);
+	border: 0px;
+	font-size: 16px;
+	align-self: flex-end;
+}
+form h2 {
+	font-family: Myfont;
+}
+.textContainer {
+	display: flex;
+	background-color: rgba(14, 155, 108, 0.843);
+	border-radius: 5px;
+	width: 45%;
+	justify-content: center;
+	align-items: center;
+	color: azure;
+}
+.pay {
+	width: 90%;
+	height: 8vh;
+	background-color: rgb(40, 197, 176);
+	font-size: 20px;
+	font-family: MyFont;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0px;
+	border-radius: 20px;
+}
+::backdrop {
+	background-color: grey;
+}
