@@ -5,7 +5,7 @@ let score = localStorage.getItem("score")
 	? Number(localStorage.getItem("score"))
 	: 0;
 
-let countClick = 1;
+let countClick = 20;
 let energy = localStorage.getItem("energy")
 	? Number(localStorage.getItem("energy"))
 	: 500;
