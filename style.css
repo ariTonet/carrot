@@ -4,7 +4,7 @@
 	display: grid;
 	grid-template-rows: 20% 68% 12%;
 	/*background-image: url(""); если картинка на фоне*/
-	background-color: #26993f;
+	background-color: #54b469;
 }
 * {
 	padding: 0;
@@ -15,7 +15,7 @@
 	height: 100vh;
 	display: grid;
 	grid-template-rows: 88% 12%;
-	background-color: #26993f;
+	background-color: #54b469;
 }
 .commandPanel {
 	display: flex;
@@ -143,12 +143,13 @@
 	}
 }
 .upgradeCards {
+	width: calc(100vw - 40px);
 	padding: 20px;
 }
 .upgradeCards p {
 	font-size: 17px;
 	font-weight: 700;
-	font-family: Myfont;
+	font-family: serif;
 	margin-bottom: 10px;
 }
 .card {
@@ -179,15 +180,15 @@
 	background-color: #5346cc;
 }
 .card:nth-child(1) .imageCard {
-	background-image: url(lvlEnergy.png);
+	background-image: url(wewerka.png);
 	background-size: cover;
 }
-.card:nth-child(1) .imageCard {
+.card:nth-child(2) .imageCard {
 	background-image: url(lvlContClick.png);
 	background-size: cover;
 }
-.card:nth-child(1) .imageCard {
-	background-image: url(lvlRestart.png);
+.card:nth-child(3) .imageCard {
+	background-image: url(энергия.png);
 	background-size: cover;
 }
 .dialog {
@@ -251,4 +252,16 @@ form h2 {
 }
 ::backdrop {
 	background-color: grey;
+}
+.passiveContainer {
+	width: calc(100vw - 40px);
+	white-space: nowrap;
+	overflow-x: auto;
+}
+.cardPassive {
+	display: inline-block;
+	margin-right: 6px;
+}
+.passiveContainer::-webkit-scrollbar {
+	display: none;
 }

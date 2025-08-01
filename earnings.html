@@ -48,11 +48,20 @@
             <div class="imageCard">
               <p><span id="lvlRestart" class="lvlRestart">0</span>/6</p>
             </div>
-            <p class="textCard">Запас энергии</p>
+            <p class="textCard">Рестарт энергии</p>
           </div>
         </div>
       </div>
-		  <div class="upgradeCards"></div>
+		  <div class="upgradeCards">
+				<p class="caption">Пассивный Доход</p>
+				<div class="passiveContainer">
+					<div class="card cardPassive" data-id="1"></div>
+					<div class="card cardPassive" data-id="2"></div>
+					<div class="card cardPassive" data-id="3"></div>
+					<div class="card cardPassive" data-id="4"></div>
+					<div class="card cardPassive" data-id="5"></div>
+				</div>
+			</div>
     </div>
 		<div class="menuPanel">
 			<a href="index.html" class="menuText"
@@ -77,8 +86,7 @@
 				><div class="menuButton">
 					<img src="shop.png" />
 					<p>Доход</p>
-				</div></a
-			>
+				</div></a>
 		</div>
 		<dialog id="screenLvlEnergy" class="dialog">
 			<form method="dialog">
@@ -110,6 +118,7 @@
 				</button>
 			</form>
 		</dialog>
+		<dialog class="dialog" id="screenPassive"></dialog>
 		<script src="script.js"></script>
 	</body>
 </html>
